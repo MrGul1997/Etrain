@@ -1,0 +1,324 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.container{
+	width:100%;
+	padding:1px;
+	box-sizing:border-box;
+	position:relative;
+}
+
+.a1{
+	position:absolute;
+	right:0px;
+	top:0px;
+
+}
+
+.nav-bar{
+	padding:20px;
+	box-sizing:border-box;
+	position:relative;
+}
+
+.nav-bar ul{
+	margin-top:-30px;
+	margin-right:250px;
+}
+
+.nav-bar ul li{
+	float:right;
+	margin-left:30px;
+	color:white;
+	font-weight:bold;
+	list-style:none;
+	
+}
+
+
+.btn1{
+	position:absolute;
+	margin-left:150px;
+	margin-right:-150px;
+	padding:10px 15px;
+	border:none;
+	cursor:pointer;
+	box-sizing:border-box;
+	color:white;
+	background-image:linear-gradient(to left,orange, red);
+	border-radius:40px;
+	margin-top:-10px;
+	
+}
+
+.btn1:hover{
+	background-image:linear-gradient(to top left,purple,white);
+}
+
+.hero-text{
+	
+	width:100%%;
+	height:80vh;
+	position:relative;
+	top:10vh;
+}
+
+.text1{
+	position:absolute;
+	left:5%;
+	top:10vh;
+}
+
+
+.text1 h1{
+	text-transform:uppercase;
+	color:purple;
+	font-size:45px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+}
+
+.text1 h3{
+	font-family: 'Poppins', sans-serif;
+}
+.text1 p{
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.img1 img{
+	position:absolute;
+	left:45%;
+}
+
+.btn2{
+	margin-top:20px;
+	background-image:linear-gradient(to left,orange,red);
+	padding:10px;
+	border-radius:30px;
+	border:none;
+	color:white;
+	width:20%;
+	
+	
+}
+
+.btn3{
+	background:white;
+padding:10px;
+border-radius:30px;
+border:none;
+margin-top:20px;
+margin-left:20px;
+width:20%;
+border:1px solid black;
+color:black;
+cursor:pointer;
+}
+
+.btn3:hover{
+	background-image:linear-gradient(to left,orange,red);
+	color:white;
+}
+
+.features{
+	
+	position:relative;
+	top:10vh;
+	width:100%;
+	height:90vh;
+}
+.af{
+	position:relative;
+	width:25%;
+	height:70vh;
+	top:10vh;
+	left:20vh;
+}
+
+.af i{
+	font-size:30px;
+	color:white;
+	position:absolute;
+	left:25vh;
+	top:4vh;
+	border-radius:50%;
+	padding:10px;
+}
+
+.af:hover{
+	border:3px solid orange;
+	
+
+}
+
+.af:hover i{
+background:orange;
+}
+.af h1{
+	position:absolute;
+font-family: 'Poppins', sans-serif;
+font-weight:bold;
+color:purple;
+left:15vh;
+top:15vh;
+text-align:center;
+}
+
+.af p{
+	position:absolute;
+	left:10vh;
+	font-family: 'Poppins', sans-serif;
+top:35vh;
+text-align:center;
+
+}
+
+.btn4{
+	position:absolute;
+	top:60vh;
+	left:20vh;
+	background-image:linear-gradient(to left,orange,red);
+	padding:10px;
+border-radius:30px;
+border:none;
+width:30%;
+color:white;
+}
+
+.bf{
+	position:relative;
+	width:25%;
+	height:70vh;
+	top:-60.5vh;
+	left:80vh;
+}
+.bf h1{
+	position:absolute;
+font-family: 'Poppins', sans-serif;
+font-weight:bold;
+font-size:25px;
+color:purple;
+left:13vh;
+top:20vh;
+text-align:center;
+}
+
+.bf p{
+	position:absolute;
+	left:10vh;
+top:35vh;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.btn5{
+	position:absolute;
+	top:60vh;
+	left:20vh;
+	
+	padding:10px;
+	background:white;
+border-radius:30px;
+border:none;
+width:30%;
+color:white;
+}
+.btn5:hover {
+	background-image:linear-gradient(to left,orange,red);
+	
+}
+
+.bf i{
+	font-size:30px;
+	color:white;
+	position:absolute;
+	left:25vh;
+	top:4vh;
+	border-radius:50%;
+	padding:10px 15px;
+}
+
+.bf:hover{
+	border:3px solid orange;
+	
+
+}
+
+.bf:hover i{
+background:orange;
+}
+
+.bf1{
+	position:relative;
+	width:25%;
+	height:70vh;
+	
+	top:-131vh;
+	left:140vh;
+}
+.bf1 h1{
+	position:absolute;
+font-family: 'Poppins', sans-serif;
+font-weight:bold;
+font-size:25px;
+color:purple;
+left:13vh;
+top:20vh;
+text-align:center;
+}
+
+.bf1 p{
+	position:absolute;
+	left:10vh;
+top:35vh;
+text-align:center;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.btn6{
+	position:absolute;
+	top:60vh;
+	left:20vh;
+	background:White;
+	padding:10px;
+border-radius:30px;
+border:none;
+width:30%;
+color:white;
+}
+
+.btn6:hover{
+	background-image:linear-gradient(to left,orange,red);
+	
+}
+
+.bf1 i{
+	font-size:30px;
+	color:white;
+	position:absolute;
+	left:25vh;
+	top:4vh;
+	border-radius:50%;
+	padding:10px 15px;
+}
+
+.bf1:hover{
+	border:3px solid orange;
+	
+
+}
+
+.bf1:hover i{
+background:orange;
+}
